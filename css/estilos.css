@@ -31,24 +31,32 @@ h3{
   color: white;
   background-color: tomato;
 }
+
 .img-thumbnail {
   padding: 0;
   border: none;
   max-width: 76%;
   height: auto;
 }
-.nav{
-  height: 9rem;
+
+#menu{
+  width: 100%;
+  position: fixed;
+  z-index: 3;
 }
-.nav-item{
-  width: 14em;
+
+#logo{
+  height: 72px;
+}
+ul{
+  text-align: left;
 }
 .nav-link{
   font-family: 'Sanchez', serif;
   color: black;
   text-decoration: none;
   font-size: 1em;
-  text-align: center;
+  text-align: left;
   width: 72%;
 }
 .nav-link:hover{
@@ -57,9 +65,9 @@ h3{
 
 }
 .fab.fa-whatsapp{
-  border: 10px solid green;
-  border-radius: 100px;
-  font-size: 50px;
+  border: 15px solid green;
+  border-radius: 100%;
+  font-size: 40px;
   background-color: green;
   color: rgb(255, 255, 255);
   padding: 0px;

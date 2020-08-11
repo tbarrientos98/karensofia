@@ -29,51 +29,52 @@
 
 <body>
 	<!--comienza el navbar-->
-	<div class="container">
-	<nav class="navbar navbar-expand-sm">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-			aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon fa fa-bars"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-			<div class="row">
-				<div class="col-8">
-					<ul class="navbar-nav mr-auto p-3 justify-content-center mt-4">
-						<li class="nav-item">
-							<a class="nav-link" href="#">HOME</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#trabajos">TRABAJOS</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">TIPS</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">SERVICIOS</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">CONTACTO</a>
-						</li>
-					</ul>
-				</div>
-				<a href="https://api.whatsapp.com/send?phone=541151757695&amp;text=Hola" target="_blank"><i class="fab fa-whatsapp"></i></a>
-				<div class="col-4">
-					<img class="img-thumbnail" src="imagenes/logokaren2.jpg" alt="">
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-sm" id="menu">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+				aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon fa fa-bars"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+				<div class="row">
+					<div class="col-4">
+						<ul class="navbar-nav mr-auto p-3 justify-content-center">
+							<li class="nav-item">
+								<a class="nav-link" href="#">HOME</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#trabajos">TRABAJOS</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">TIPS</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">SERVICIOS</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">CONTACTO</a>
+							</li>
+						</ul>
+					</div>
+					<a href="https://api.whatsapp.com/send?phone=541151757695&amp;text=Hola" target="_blank"><i
+							class="fab fa-whatsapp"></i></a>
+					<div class="col-4">
+						<img src="imagenes/logokaren2.jpg" class="d-block w-50" alt="..." id="logo">
+					</div>
 				</div>
 			</div>
-		</div>
-	</nav>
-</div>
+		</nav>
+	</div>
 	<!--termina el navbar-->
 
 	<!--empeiza el carrousel-->
 	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner">
-		  <div class="carousel-item active">
-			  <img src="imagenes/imagen3.jpg" class="d-block w-100" alt="...">
-		  </div>
+			<div class="carousel-item active">
+				<img src="imagenes/imagen3.jpg" class="d-block w-100" alt="...">
+			</div>
+		</div>
 	</div>
-</div>
 
 	<div class="container">
 		<hr class="featurette-divider bg-dark">
@@ -104,7 +105,7 @@
 			<div class="col-12 py-5">
 				<center>
 					<a name="trabajos">
-					<h2>Trabajos</h2>
+						<h2>Trabajos</h2>
 				</center>
 			</div>
 		</div>
@@ -119,26 +120,26 @@
 				<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
 					vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
 					cursus magna.</p>
-					<button type="button" class="btn">Danger</button>
-				</div><!-- /.col-lg-4 -->
+				<button type="button" class="btn">Danger</button>
+			</div><!-- /.col-lg-4 -->
 			<div class="col-4">
 				<img src="imagenes/imagen2.jpg" alt="..." class="rounded-circle py-4">
 				<h3>Apasionada del arte digital</h3>
 				<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras
 					mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
 					condimentum nibh.</p>
-					<button type="button" class="btn">Danger</button>
-				</div><!-- /.col-lg-4 -->
+				<button type="button" class="btn">Danger</button>
+			</div><!-- /.col-lg-4 -->
 			<div class="col-4">
 				<img src="imagenes/imagen2.jpg" alt="..." class="rounded-circle py-4">
 				<h3>Heading</h3>
 				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
 					porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
 					ut fermentum massa justo sit amet risus.</p>
-					<button type="button" class="btn">Danger</button>
- 				</div><!-- /.col-lg-4 -->
+				<button type="button" class="btn">Danger</button>
+			</div><!-- /.col-lg-4 -->
 		</div><!-- /.row -->
-	
+
 </body>
 
 </html>
