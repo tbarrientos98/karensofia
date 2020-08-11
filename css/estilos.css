@@ -43,6 +43,7 @@ h3{
   width: 100%;
   position: fixed;
   z-index: 3;
+  left: 27em;
 }
 
 #logo{
@@ -62,7 +63,6 @@ h3{
 .nav-link:hover{
   color: tomato;
   text-decoration: underline ;
-
 }
 .fab.fa-whatsapp{
   border: 15px solid green;
