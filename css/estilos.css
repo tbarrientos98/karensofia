@@ -9,8 +9,8 @@ html{
 
 h1{
   font-family: 'Lobster', cursive;
-
-  color: black;
+  font-size: 5em;
+  color: rgb(53, 53, 53);
 }
 h2{
   font-family: 'Lobster', cursive;
@@ -19,6 +19,16 @@ h2{
 }
 h3{
   font-size: 1.8em;
+  font-family: 'Sanchez', serif;
+}
+
+#titulo-presentacion{
+  min-height: 50em;
+}
+.presentacion{
+  position: relative;
+  top: 15rem;
+
 }
 
 .btn{
