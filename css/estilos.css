@@ -7,11 +7,13 @@ html{
   scroll-behavior: smooth;
 
 }
-
+header{
+  background-image: url();
+}
 h1{
   font-family: 'Lobster', cursive;
   font-size: 5em;
-  color: #f76ca5  ;
+  color: #9D0631 ;
 }
 h2{
   font-family: 'Lobster', cursive;
