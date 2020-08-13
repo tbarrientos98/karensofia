@@ -1,7 +1,7 @@
 body{
   padding-bottom: 3rem;
   background-color: white;
-  font-family: 'Sanchez', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 html{
   scroll-behavior: smooth;
@@ -15,7 +15,7 @@ html{
 h1{
   font-family: 'Lobster', cursive;
   font-size: 5em;
-  color: rgb(53, 53, 53);
+  color: #f76ca5  ;
 }
 h2{
   font-family: 'Lobster', cursive;
@@ -24,7 +24,7 @@ h2{
 }
 h3{
   font-size: 1.8em;
-  font-family: 'Sanchez', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #titulo-presentacion{
