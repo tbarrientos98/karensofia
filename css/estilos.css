@@ -4,7 +4,6 @@ body{
 }
 html{
   scroll-behavior: smooth;
-
 }
 
 header{
@@ -29,10 +28,14 @@ header.active{
   transition: all 0.5s;
 }
 
+.nav-link{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
 /*header{
   background: linear-gradient(rgb(3, 3, 73),rgb(7, 114, 150));
 }*/
-
 
 h1{
   font-family: 'Lobster', cursive;
@@ -50,8 +53,9 @@ h3{
 }
 
 #titulo-presentacion{
+  background: url("karen/imagenes/header.jpg");
   min-height: 50em;
-  
+  background-size: 100%;
 }
 .presentacion{
   position: relative;
