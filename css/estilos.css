@@ -8,6 +8,28 @@ html{
 
 }
 
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  background: transparent;
+  transition: all 0.5s;
+}
+
+header.active{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  background: #9D0631;
+  transition: all 0.5s;
+}
+
 /*header{
   background: linear-gradient(rgb(3, 3, 73),rgb(7, 114, 150));
 }*/
