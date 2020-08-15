@@ -48,32 +48,44 @@ header.active .nav-link:hover{
 #titulo{
   min-height: 50em;
 }
-.presentacion{
-  position: relative;
-  top: 15rem;
-}
-/********************************** HEADER*/
-/*header{
-  background: linear-gradient(rgb(3, 3, 73),rgb(7, 114, 150));
-}*/
 
-/********************************** SOBRE MI*/
-
-h1{
+#titulo h1{
   font-family: 'Lobster', cursive;
   font-size: 5em;
   color: #9D0631 ;
 }
-h2{
-  font-family: 'Lobster', cursive;
-  font-size: 3em;
-  color: rgb(53, 53, 53);
-}
-h3{
+#titulo h3{
   font-size: 1.8em;
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
+.presentacion{
+  position: relative;
+  top: 15rem;
+}
+/************************************************* HEADER*/
+/*header{
+  background: linear-gradient(rgb(3, 3, 73),rgb(7, 114, 150));
+}*/
+
+/************************************************* SOBRE MI*/
+.sobremi{
+  background-color: black;
+}
+
+.sobremi h2{
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+  color: aliceblue;
+}
+
+.sobremi p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  color: aliceblue;
+} 
+
+/************************************************* TRABAJOS*/
 
 .btn{
   font-family: sans-serif;
