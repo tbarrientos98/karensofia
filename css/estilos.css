@@ -1,6 +1,8 @@
 body{
   padding-bottom: 3rem;
   font-family: 'Montserrat', sans-serif;
+  background-size: 100% 46%;
+  background-repeat: no-repeat;
 }
 html{
   scroll-behavior: smooth;
@@ -29,6 +31,22 @@ header.active{
   transition: all 0.5s;
 }
 
+.nav-link{
+  color: white;
+  
+}
+.nav-link:hover{
+  color: #9D0631;
+}
+
+header.active .nav-link{
+  color:white;
+}
+
+header.active .nav-link:hover{
+  color: black;
+}
+
 /*header{
   background: linear-gradient(rgb(3, 3, 73),rgb(7, 114, 150));
 }*/
@@ -47,11 +65,11 @@ h2{
 h3{
   font-size: 1.8em;
   font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
 #titulo-presentacion{
   min-height: 50em;
-  
 }
 .presentacion{
   position: relative;
