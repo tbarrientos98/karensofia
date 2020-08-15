@@ -1,6 +1,8 @@
 body{
   padding-bottom: 3rem;
   font-family: 'Montserrat', sans-serif;
+  background-size: 100% 46%;
+  background-repeat: no-repeat;
 }
 html{
   scroll-behavior: smooth;
@@ -29,8 +31,19 @@ header.active{
 }
 
 .nav-link{
-  font-size: 1rem;
-  font-weight: 700;
+  color: white;
+  
+}
+.nav-link:hover{
+  color: #9D0631;
+}
+
+header.active .nav-link{
+  color:white;
+}
+
+header.active .nav-link:hover{
+  color: black;
 }
 
 /*header{
@@ -50,12 +63,12 @@ h2{
 h3{
   font-size: 1.8em;
   font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
 #titulo-presentacion{
   background: url("karen/imagenes/header.jpg");
   min-height: 50em;
-  background-size: 100%;
 }
 .presentacion{
   position: relative;
