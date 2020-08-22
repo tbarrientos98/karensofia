@@ -1,7 +1,7 @@
 body{
   padding-bottom: 3rem;
   font-family: 'Montserrat', sans-serif;
-  background-size: 100% 46%;
+  background-size: 100% 43%;
   background-repeat: no-repeat;
 }
 
@@ -36,7 +36,9 @@ header.active{
   
 }
 .nav-link:hover{
-  color: #9D0631;
+  color: rgba(255, 247, 247, 0.74);
+  border-bottom: 3px solid ;
+  color: rgb(160, 15, 75);
 }
 
 header.active .nav-link{
@@ -71,22 +73,31 @@ header.active .nav-link:hover{
 
 /************************************************* SOBRE MI*/
 .sobremi{
-  background-color: black;
+  background-color: #d8d3d2;
 }
 
 .sobremi h2{
-  font-family: 'Lobster', cursive;
+  font-family: 'Montserrat', sans-serif;;
   font-size: 3em;
-  color: aliceblue;
+  color: rgb(22, 22, 22);
+  font-weight: 500;
 }
 
 .sobremi p{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
-  color: aliceblue;
+  color: rgb(22, 22, 22);
 } 
 
 /************************************************* TRABAJOS*/
+
+.trabajos h2{
+  font-family: 'Montserrat', sans-serif;;
+  font-size: 3em;
+  color: rgb(22, 22, 22);
+  font-weight: 500;
+}
+
 
 .btn{
   font-family: sans-serif;
