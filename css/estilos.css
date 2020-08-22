@@ -3,6 +3,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   background-size: 100% 43%;
   background-repeat: no-repeat;
+  
 }
 
 html{
@@ -88,6 +89,14 @@ header.active .nav-link:hover{
   font-size: 1.5em;
   color: rgb(22, 22, 22);
 } 
+
+#fotosobremi{
+  height: 90%;
+  width: 100%;
+  border-radius: 20px;
+  filter:brightness(0.8);
+  
+}
 
 /************************************************* TRABAJOS*/
 
