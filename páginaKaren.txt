@@ -1,0 +1,20 @@
+servicios que puede contratar la gente: 
+	Servicio audiovisual:
+		edicion de video básica,
+		album de fotos digital (con musica)
+	Diseño gráfico:
+		 logos básicos (tipografía + ícono)
+	Diseños personalizados:
+		flyers, 
+		folletos,
+		tarjetas personales
+COLORES QUE NO: verde, marron, naranja, amarillo, rosa feo no, gris cemento
+COLORES QUE SI: rosa, celeste pastel, rosa chillon o turquesa, celeste chillon, gris clarito, o gris muuuy oscuro
+
+proyecto: 3 columnas con ejemplos de trabajos realizados, separados por temas, retoques fotograficos (no seria un servicio)
+
+contacto: colores: oscuros, grises o pasteles (rosa, celeste) - formato de portfolio
+	subtitulo para contacto:
+"Dejame tu comentario, para una atencion mas personalizada te invito a que utilices este espacio para contactarme y poder asesorarte en lo que estas necesitando. Saludos y abrazos virtuales."
+
+confimacion de contacto: "muchas gracias por tu mensaje, te respondere a la brevedad", pantalla color gris fuente imprenta-cursiva (diagonal) de color rosa o celeste

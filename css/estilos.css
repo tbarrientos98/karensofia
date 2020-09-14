@@ -1,14 +1,17 @@
+/**************************************************** HTML Y BODY */ 
+html{
+  scroll-behavior: smooth; /*ESTO FUNCIONA PARA CUANDO SE OPTE UNA OPCION DEL MENÚ, BAJE LENTAMENTE */
+}
 body{
   padding-bottom: 3rem;
   font-family: 'Montserrat', sans-serif;
   background-size: 100% 43%;
   background-repeat: no-repeat;
   background-image: url(../imagenes/diseñadordigital.jpg);
+  /*background-attachment: fixed;*/ /*foto estática, el problema es el alto */ 
 }
 
-html{
-  scroll-behavior: smooth;
-}
+/**************************************************** ESTILOS DEL HEADER (MENÚ) */ 
 
 header{
   position: fixed;
@@ -20,7 +23,6 @@ header{
   background: transparent;
   transition: all 0.5s;
 }
-
 header.active{
   position: fixed;
   top: 0;
@@ -31,6 +33,16 @@ header.active{
   background: #9D0631;
   transition: all 0.5s;
 }
+header.active .nav-link{
+  color:white;
+}
+header.active .nav-link:hover{
+  color: black;
+}
+
+/*header{
+  background: linear-gradient(rgb(3, 3, 73),rgb(7, 114, 150));
+}*/
 
 .nav-link{
   color: white;
@@ -42,106 +54,63 @@ header.active{
   color: rgb(160, 15, 75);
 }
 
-header.active .nav-link{
-  color:white;
-}
+/**************************************************** ESTILOS DEL TITULO PRINCIPAL */
 
-header.active .nav-link:hover{
-  color: black;
-}
 #titulo{
   min-height: 50em;
 }
-
-#titulo h1{
+#titulo h1{ /* "KAREN SOFIA" */
   font-family: 'Lobster', cursive;
   font-size: 5em;
   color: #9D0631 ;
 }
-#titulo h3{
+#titulo h3{ /* PARTE DEL TITULO EN BLANCO */
   font-size: 1.8em;
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
-.presentacion{
+.presentacion{ /*TITULO PRINCIPAL */
   position: relative;
   top: 15rem;
 }
-/************************************************* HEADER*/
-/*header{
-  background: linear-gradient(rgb(3, 3, 73),rgb(7, 114, 150));
-}*/
 
-/************************************************* SOBRE MI*/
+/************************************************* ESTILOS DE LA SECCIÓN SOBRE MI*/
+
 .sobremi{
   background-color: #d8d3d2;
 }
-
-.sobremi h2{
+.sobremi h2{ /* TITULOS DE LA SECCIÓN "SOBRE MI" */
   font-family: 'Montserrat', sans-serif;;
   font-size: 3em;
   color: rgb(22, 22, 22);
   font-weight: 500;
 }
-
 .sobremi p{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
   color: rgb(22, 22, 22);
 } 
-
-#fotosobremi{
+#fotosobremi{ 
   height: 90%;
-  width: 100%;
+  width: 90%;
   border-radius: 20px;
   filter:brightness(0.8);
-  
 }
 
-/************************************************* TRABAJOS*/
+/************************************************* ESTILOS DE LA SECCIÓN PROYECTOS*/
 
-.trabajos h2{
+.proyectos h2{ /*TÍTULO DE LA SECCION "PROYECTOS" */
   font-family: 'Montserrat', sans-serif;;
   font-size: 3em;
   color: rgb(22, 22, 22);
   font-weight: 500;
 }
-
-
-.btn{
-  font-family: sans-serif;
-  color: white;
-  background-color: red;
-}
-.btn:hover{
-  font-family: sans-serif;
-  color: white;
-  background-color: tomato;
-}
-
-.img-thumbnail {
-  padding: 0;
-  border: none;
-  max-width: 76%;
-  height: auto;
-}
-
-.fab.fa-whatsapp{
-  border: 15px solid green;
-  border-radius: 100%;
-  font-size: 40px;
-  background-color: green;
-  color: rgb(255, 255, 255);
-  padding: 0px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000;
-}
 .rounded-circle{
   height: 55%;
   width: 55%;
 }
+
+/**************************************************** MEDIA QUERIES */ 
 
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
