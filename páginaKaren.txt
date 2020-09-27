@@ -1,20 +1,52 @@
-servicios que puede contratar la gente: 
+---------------------------------------------- DANTE -------------------------------------------------------
+
+- Home: CORRER EL MENÚ A LA DERECHA
+              	Cambiar la foto de fondo
+	Cambiar color del menú y h1
+
+--------------------------------------------- TOMÁS --------------------------------------------------------------
+
+- Servicios (que puede contratar la gente): 
 	Servicio audiovisual:
-		edicion de video básica,
-		album de fotos digital (con musica)
+		edición de video básica,
+		album de fotos digital (con música)
 	Diseño gráfico:
 		 logos básicos (tipografía + ícono)
 	Diseños personalizados:
 		flyers, 
 		folletos,
-		tarjetas personales
-COLORES QUE NO: verde, marron, naranja, amarillo, rosa feo no, gris cemento
-COLORES QUE SI: rosa, celeste pastel, rosa chillon o turquesa, celeste chillon, gris clarito, o gris muuuy oscuro
+		tarjetas personales.
+TODO FORMATO DE 3 COLUMNAS, SIMILAR AL HABILIDADES 
+DE EDUARDO GONZALEZ
+	Enlace al formulario de contacto.
 
-proyecto: 3 columnas con ejemplos de trabajos realizados, separados por temas, retoques fotograficos (no seria un servicio)
+SIN REDES SOSCIALES.
 
-contacto: colores: oscuros, grises o pasteles (rosa, celeste) - formato de portfolio
-	subtitulo para contacto:
-"Dejame tu comentario, para una atencion mas personalizada te invito a que utilices este espacio para contactarme y poder asesorarte en lo que estas necesitando. Saludos y abrazos virtuales."
+COLORES QUE NO: verde, bordo, marrón, naranja, amarillo, rosa feo no, gris cemento.
 
-confimacion de contacto: "muchas gracias por tu mensaje, te respondere a la brevedad", pantalla color gris fuente imprenta-cursiva (diagonal) de color rosa o celeste
+COLORES QUE SI: rosa, celeste pastel, rosa chillón o turquesa, 
+	               celeste chillón, gris clarito, o gris muuuy oscuro
+
+------------------------------------------- TOMÁS ------------------------------------------------------------
+
+- Proyectos: 
+	4 columnas con ejemplos de trabajos realizados, 
+	FOTO Y DESCRIPCIÓN EN ZIG ZAG
+	separados por temas (Servicio audiovisual, Diseño gráfico, Diseños personalizados), 
+	RETOQUES FOTOGRÁFICOS (no seria un servicio que la gente pueda contratar).
+
+---------------------------------------------- DANTE --------------------------------------------------------------
+
+- Contacto: 
+	colores: oscuros, grises o pasteles (rosa, celeste) - formato de portfolio
+Subtitulo para contacto:
+	"Dejame tu comentario, para una atención más personalizada
+	 te invito a que utilices este espacio para contactarme 
+	y poder asesorarte en lo que estás necesitando. Saludos y abrazos virtuales."
+
+---------------------------------------------- DANTE --------------------------------------------------------------
+
+- Confimación de contacto (página a parte): 
+	"Muchas gracias por tu mensaje, te responderé a la brevedad", 
+	pantalla color gris fuente imprenta-cursiva (diagonal) de color rosa o celeste.
+
