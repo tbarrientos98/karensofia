@@ -37,7 +37,9 @@
 					aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-
+				<div class="logo" id="logok">
+					<a href="#"><img src="./imagenes/logokaren2.png" alt="" /></a>
+				</div>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav">
 						<li class="nav-item">
@@ -56,6 +58,7 @@
 							<a class="nav-link" href="#contacto">CONTACTO</a>
 						</li>
 					</ul>
+
 				</div>
 			</nav>
 		</div>
@@ -98,7 +101,7 @@
 							reprehenderit natus obcaecati libero culpa voluptates, voluptatibus iste, eius quos!
 						</p>
 					</div>
-					<div class="col-sm-6" >
+					<div class="col-sm-6">
 						<img src="imagenes/header.jpg" alt="" id="fotosobremi">
 					</div>
 				</div>
@@ -113,7 +116,7 @@
 		<a name="proyectos">
 			<div class="container">
 				<div class="row">
-					<div class="col-12 py-5">
+					<div class="col-12 mt-5 py-5">
 						<center>
 							<h2>PROYECTOS</h2>
 						</center>
@@ -128,11 +131,9 @@
 					<div class="col-4">
 						<img src="imagenes/imagen2.jpg" alt="..." class="rounded-circle py-4">
 						<h3>Peluquera canina</h3>
-						<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
-							ultricies
-							vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent
-							commodo
-							cursus magna.
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae unde enim ullam! Quaerat
+							architecto aperiam, voluptatem molestiae magnam modi id iusto corrupti debitis, fuga
+							temporibus, aspernatur ratione earum quasi expedita?lore
 						</p>
 					</div><!-- /.col-lg-4 -->
 					<div class="col-4">
@@ -141,9 +142,7 @@
 						<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
 							elit.
 							Cras
-							mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
-							mauris
-							condimentum nibh.
+							mattis consectetur purus sit amet fermentum.
 						</p>
 					</div><!-- /.col-lg-4 -->
 					<div class="col-4">
@@ -153,14 +152,70 @@
 							id
 							ligula
 							porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-							condimentum
-							nibh,
-							ut fermentum massa justo sit amet risus.}
 						</p>
 					</div><!-- /.col-lg-4 -->
 				</div><!-- /.row -->
 			</div>
 	</section>
+
+	<!--TERMINA PROYECTOS-->
+
+	<!--CONTACTO-->
+
+	<section class="contacto">
+		<a name="contacto">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 mt-5 py-5">
+						<center>
+							<h2>CONTACTO</h2>
+						</center>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<form action="">
+							<div class="row">
+								<div class="col-12 form-group">
+									<input type="text" name="txtNombre" id="txtNombre" class="form-control" required
+										placeholder="NOMBRE">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 form-group">
+									<input type="email" name="txtCorreo" id="txtCorreo" class="form-control" required
+										placeholder="CORREO">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 form-group">
+									<input type="text" name="txtAsunto" id="txtAsunto" class="form-control" required
+										placeholder="ASUNTO">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 form-group">
+									<textarea name="txtMensaje" id="txtMensaje" rows="5" class="form-control"
+										placeholder="MENSAJE" required></textarea>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 text-center pb-2">
+									<input type="submit" name="btnEnviar" value="ENVIAR" class="btn btn-light">
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-6" id="contactame">
+						<p>Ante cualquier consulta podés contactarme a través de este formulario, no olvides poner tu
+							correo y el asunto del mensaje. ¡Muchas gracias!
+						</p>
+					</div>
+				</div>
+			</div>
+			</div>
+	</section>
+
 
 	<script>
 		const header = document.querySelector('header');

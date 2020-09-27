@@ -15,29 +15,34 @@ body{
 
 header{
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   text-align: center;
+  font-weight: 500;
   z-index: 100;
   background: transparent;
   transition: all 0.5s;
 }
 header.active{
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
+  font-weight: 500;
   text-align: center;
   z-index: 100;
-  background: #9D0631;
+  background: #81D8D0;
   transition: all 0.5s;
 }
+ul{
+  margin-left: 420px;
+}
+img{
+  height: 65px;
+
+}
 header.active .nav-link{
-  color:white;
+  color:black;
 }
 header.active .nav-link:hover{
-  color: black;
+  color: white;
 }
 
 /*header{
@@ -49,9 +54,8 @@ header.active .nav-link:hover{
   
 }
 .nav-link:hover{
-  color: rgba(255, 247, 247, 0.74);
-  border-bottom: 3px solid ;
-  color: rgb(160, 15, 75);
+  color: #81D8D0;
+  border-bottom: 3px solid;
 }
 
 /**************************************************** ESTILOS DEL TITULO PRINCIPAL */
@@ -62,7 +66,7 @@ header.active .nav-link:hover{
 #titulo h1{ /* "KAREN SOFIA" */
   font-family: 'Lobster', cursive;
   font-size: 5em;
-  color: #9D0631 ;
+  color: #81D8D0 ;
 }
 #titulo h3{ /* PARTE DEL TITULO EN BLANCO */
   font-size: 1.8em;
@@ -98,7 +102,9 @@ header.active .nav-link:hover{
 }
 
 /************************************************* ESTILOS DE LA SECCIÓN PROYECTOS*/
-
+.proyectos{
+  background-color: coral;
+}
 .proyectos h2{ /*TÍTULO DE LA SECCION "PROYECTOS" */
   font-family: 'Montserrat', sans-serif;;
   font-size: 3em;
@@ -110,6 +116,30 @@ header.active .nav-link:hover{
   width: 55%;
 }
 
+/************************************************* ESTILOS DE LA SECCIÓN CONTACTO*/
+
+.contacto{
+  background: linear-gradient(#212121,#474B4E);
+}
+
+.contacto h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  color: #81D8D0;
+  font-weight: 500;
+}
+
+.form-control{
+  background-color: transparent;
+  border: 0px;
+  border-bottom: solid 1px;
+  border-radius: 0px;
+}
+#contactame{
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  color: #81D8D0;
+}
 /**************************************************** MEDIA QUERIES */ 
 
 @media (min-width: 768px) {
