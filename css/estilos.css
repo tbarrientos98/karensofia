@@ -3,7 +3,7 @@ html{
   scroll-behavior: smooth; /*ESTO FUNCIONA PARA CUANDO SE OPTE UNA OPCION DEL MENÚ, BAJE LENTAMENTE */
 }
 body{
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
   font-family: 'Montserrat', sans-serif;
   background-size: 100%;
   background-repeat: no-repeat;
