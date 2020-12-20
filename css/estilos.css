@@ -84,8 +84,8 @@ header.active .nav-link:hover{
   background-color: #d8d3d2;
 }
 .sobremi h2{ /* TITULOS DE LA SECCIÓN "SOBRE MI" */
-  font-family: 'Montserrat', sans-serif;;
-  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
   color: rgb(22, 22, 22);
   font-weight: 500;
 }
