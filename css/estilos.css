@@ -85,7 +85,7 @@ header.active .nav-link:hover{
 }
 .sobremi h2{ /* TITULOS DE LA SECCIÓN "SOBRE MI" */
   font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
+  font-size: 2em;
   color: rgb(22, 22, 22);
   font-weight: 500;
 }
@@ -107,7 +107,7 @@ header.active .nav-link:hover{
 }
 .proyectos h2{ /*TÍTULO DE LA SECCION "PROYECTOS" */
   font-family: 'Montserrat', sans-serif;;
-  font-size: 3em;
+  font-size: 2em;
   color: rgb(22, 22, 22);
   font-weight: 500;
 }
@@ -124,8 +124,8 @@ header.active .nav-link:hover{
 
 .contacto h2{
   font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
-  color: #2D2D2D;
+  font-size: 2em;
+  color: #81D8D0;
   font-weight: 500;
 }
 
