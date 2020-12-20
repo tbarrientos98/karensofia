@@ -119,7 +119,7 @@ header.active .nav-link:hover{
 /************************************************* ESTILOS DE LA SECCIÓN CONTACTO*/
 
 .contacto{
-  background: linear-gradient(#212121,#474B4E);
+  background: #EEEEEE;
 }
 
 .contacto h2{
@@ -136,9 +136,22 @@ header.active .nav-link:hover{
   border-radius: 0px;
 }
 #contactame{
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-family: 'Montserrat', sans-serif;
-  color: #81D8D0;
+  color: #2D2D2D;
+}
+.btn{
+  color: white;
+  background-color: #2D2D2D;
+  box-shadow: 10px 5px 10px #2D2D2D;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.btn:hover{
+  color: #2D2D2D;
+  background-color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 /**************************************************** MEDIA QUERIES */ 
 
