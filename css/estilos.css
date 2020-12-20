@@ -5,7 +5,7 @@ html{
 body{
   padding-bottom: 3rem;
   font-family: 'Montserrat', sans-serif;
-  background-size: 100% 43%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-image: url(../imagenes/fondoperro2.jpg);
   /*background-attachment: fixed;*/ /*foto estática, el problema es el alto */ 
