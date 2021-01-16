@@ -28,7 +28,7 @@ header.active{
   font-weight: 500;
   text-align: center;
   z-index: 100;
-  background: #ecc400f0;
+  background: #a8dee0;
   transition: all 0.5s;
 }
 ul{
@@ -54,7 +54,7 @@ header.active .nav-link:hover{
   
 }
 .nav-link:hover{
-  color: #81D8D0;
+  color: #a8dee0;
   border-bottom: 3px solid;
 }
 
@@ -66,7 +66,7 @@ header.active .nav-link:hover{
 #titulo h1{ /* "KAREN SOFIA" */
   font-family: 'Lobster', cursive;
   font-size: 5em;
-  color: #ecc400f0 ;
+  color: #a8dee0 ;
 }
 #titulo h3{ /* PARTE DEL TITULO EN BLANCO */
   font-size: 1.8em;
