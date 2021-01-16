@@ -1,0 +1,10 @@
+PAGINA ACTUALIZADA:
+
+GORDO:
+-ESTILOS NAV: logo
+-SOBRE MI: foto, descripcion
+-CONTACTO: colores, botones
+
+TOMI:
+-MI TRABAJO: 3 items, con descripcion
+-HOME: portada
