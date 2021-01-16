@@ -5,9 +5,9 @@ html{
 body{
   /* padding-bottom: 3rem; */
   font-family: 'Montserrat', sans-serif;
-  background-size: 100%;
+ /*  background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url(../imagenes/fondoperro2.jpg);
+  background-image: url(../imagenes/portadaweb.jpg); */
   /*background-attachment: fixed;*/ /*foto estática, el problema es el alto */ 
 }
 
@@ -62,6 +62,14 @@ header.active .nav-link:hover{
 
 #titulo{
   min-height: 50em;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../imagenes/portadaweb.jpg);
+  position: relative;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 81px;
 }
 #titulo h1{ /* "KAREN SOFIA" */
   font-family: 'Lobster', cursive;
@@ -105,7 +113,7 @@ header.active .nav-link:hover{
 
 /************************************************* ESTILOS DE LA SECCIÓN PROYECTOS*/
 .proyectos{
-  background-color: #ecc400f0;
+  background-color: #ecc400;
 }
 .proyectos h2{ /*TÍTULO DE LA SECCION "PROYECTOS" */
   font-family: 'Montserrat', sans-serif;;
